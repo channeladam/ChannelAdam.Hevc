@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <Description>Provides an INCOMPLETE implementation for parsing and manipulating the data in an HEVC /  H.265 byte stream</Description>
+    <Copyright>ChannelAdam 2017</Copyright>
+  </PropertyGroup>
+
+</Project>
