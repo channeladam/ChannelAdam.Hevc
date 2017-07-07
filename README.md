@@ -15,6 +15,6 @@ To change the Sample Aspect Ratio of a HEVC video:
     e.g. ffmpeg -i "myvideo.h265.mkv" -vcodec copy -an "myvideo.hevc"
 
 2. Run this console application to change the SAR enbedded within that video stream.
-    e.g. C:\ChannelAdam.Hevc.NalUnitChanger\ChannelAdam.Hevc.NalUnitChanger.Console> dotnet run /in="myvideo.hevc" /out="out.hevc" /sarWidth=1 /sarHeight=1
+    e.g. C:\ChannelAdam.Hevc\ChannelAdam.Hevc.NalUnitChanger.Console> dotnet run /in="myvideo.hevc" /out="out.hevc" /sarWidth=1 /sarHeight=1
     
 3. Use your favourite tool (e.g. FFMPeg, MKVToolnix, etc) to re-mux the video stream with your original audio stream to bring it all back together again.
