@@ -1,5 +1,10 @@
 # ChannelAdam.Hevc
 
+## DEPRECATION NOTE
+*FFmpeg 4.0 (2018-04-20) now has an [HEVC bitstream filter](http://ffmpeg.org/ffmpeg-bitstream-filters.html#hevc_005fmetadata) with functionality to manipulate the HEVC metadata.*
+
+This is still good sample C# code...
+
 ## Overview
 An HEVC / H.265 C# library.
 
